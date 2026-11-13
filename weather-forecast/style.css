@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.search-cont {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-cont input, button {
+    padding: 5px;
+    outline: none;
+    font-size: 18px;
+}
+
+.daily {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.current {
+    padding: 10px;
+}
+.card {
+    padding: 10px;
+    display: flex;
+    margin: 2px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+}
